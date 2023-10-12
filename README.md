@@ -12,7 +12,9 @@ Background:
 
 OHCA is an Out-of-Hospital Cardiac Arrest incidents. To improve patient survival rates we will optimizing the volunteer dispatch policies. The patient's survival probability can be expressed using the following formula, as shown in the image below. In this formula, 
 
-<img width="169" alt="Screenshot 2023-10-11 at 5 37 41 PM" src="https://github.com/yusef-rahimzada/Simulation-of-Emergency-Responses-to-Cardiac-Arrests-in-an-Urban-Setting/assets/66438099/54a5c6cb-cd0e-469e-8bc1-de9ceb27ee3f">
+<div style="text-align: center;">
+  <img width="300" alt="Screenshot 2023-10-11 at 5 37 41 PM" src="https://github.com/yusef-rahimzada/Simulation-of-Emergency-Responses-to-Cardiac-Arrests-in-an-Urban-Setting/assets/66438099/54a5c6cb-cd0e-469e-8bc1-de9ceb27ee3f">
+</div>
 
 T_1  represents the time in minutes until the initiation of CPR, which can be administered by both volunteers and ambulances.
 T_2 represents the time in minutes until the initiation of defibrillation, which is an action exclusively carried out by ambulances.
