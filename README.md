@@ -72,4 +72,12 @@ This policy aims to improve Policy 2 by increasing the batch size to 2 while pro
 
 ## Conclusion
 
-In conclusion, we recommend adopting any of the first three policies as they balance good survival rates with efficient utilization of the volunteer network for handling severe OHCA cases.
+This project tackled the challenge of improving survival rates for Out-of-Hospital Cardiac Arrest (OHCA), a condition with a distressing 90% fatality rate. Four policies were crafted and assessed using key metrics: Survival Rate, Alerted Volunteers, Nearby Fraction, and Volunteer-first Fraction, with a focus on Survival Rate.
+
+Each policy has its strengths and drawbacks. Policy 1 is straightforward but risks an excess of volunteers. Policy 2 reduces alerted volunteers but with a slight survival rate trade-off. Policy 3 excels in survival rates but raises alerted volunteer concerns. Policy 4 aims to enhance Policy 2's survival rates but experiences a notable drop.
+
+We also evaluated Nearby Fraction and Volunteer First Fraction. Policy 1 excels in Volunteer First Fraction, while Policy 4 has the lowest. In the Nearby Fraction, Policy 1 leads the way.
+
+For real-world use, context matters. Smaller towns may find Policy 2 suitable, while Policy 1 could be a better choice for densely populated cities.
+
+In conclusion, these four OHCA alerting policies offer various trade-offs. To implement them effectively, contextual considerations are key. 
